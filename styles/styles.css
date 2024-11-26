@@ -73,3 +73,14 @@ body{
   background-image: url("../img/imgplaceholder.png");
   /* text-indent: -9999px; */ /* remove or comment out text indent if all images are available */
 }
+
+
+.svg-img{
+  width: 20px;
+  height: auto;
+}
+
+.img-round{
+  border-radius: 50%;
+  border: 1px solid white;
+}

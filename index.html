@@ -11,34 +11,186 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-     
+
+    <!-- Import external style -->
+    <link rel="stylesheet" href="styles/styles.css">
 
   </head>
   <body>
-
     <!-- Container for navbar and header -->
-
+    <div class="container min-vh-100 p-4">
       <!-- Navigation Bar -->
-      
-      <!-- Burger Menu that targets the navigation with the id sitMenu -->  
+
+      <nav class="navbar navbar-expand-lg navbar-dark fw-lighter">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="/img/logo.png" alt="Company Logo" />
+          </a>
+
+          <!-- Burger Menu that targets the navigation with the id sitMenu -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <!-- Header -->
-      
+       <header class="homebanner rounded-4 text-center mt-4 pb-2 
+       d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-1 text-white fw-lighter shadow-effects">Sole Runner</h1>
+        <h4 class="display-6 text-white fw-light shadow-effects text-uppercase">Autumn Gear</h4>
+        <a class="btn btn-primary btn-primary-shadow text-white" href="#">ENTER</a>
+       </header>
+
+
+
+    </div>
+
     <!-- End for Container navbar and header -->
 
     <!-- Newsletter -->
 
     <!-- Cards container -->
-    
-    
+
     <!-- Footer - Copyright -->
+
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top bg-black ps-4">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <div class="d-flex rounded-circle border border-1 justify-content-center align-items-center p-2 bg-dark footer-logo-container">
+            <img class="img-fluid" src="img/logo.png" alt="">
+          </div>
+        </a>
+        <p class="text-white-50 small text-nowrap">&copy; Airstream 2024, All rights reserved</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="fw-light text-white">Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="fw-light text-white">Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="fw-light text-white">Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fw-lighter">About</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <!--
+     <footer class="text-white fw-lighter text-lg-start py-3 my-4">
+-->
+      <!-- Copyright -->
+      <!-- <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+         <div> 
+          <div class="img-round"><img src="img/logo.png" alt=""></div>
+          <div class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non esse totam officia asperiores itaque 
+            consectetur voluptate nulla est commodi consequuntur voluptatem, error eum. Nesciunt libero cum odio animi itaque.</div>
+        </div>
+        
+
+      
+          <div class="col mb-3 px-5">
+            <h5 class="fw-light text-white">Section</h5>
+            <ul class="nav flex-column ">
+              <li class="dropdown nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+            </ul>
+          </div>
+      
+         
+      
+          <div class="col mb-3">
+            <h5 class="fw-light text-white">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">General Information</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Statistic data</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Jobs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Release</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Contact</h5>
+            <h6 class="fw-lighter"><img class="svg-img" src="location-pin-alt-1-svgrepo-com.svg" alt="">Paddington, 57 Street, Singapore</h6>
+            <h6 class="fw-lighter"><img class="svg-img" src="telephone-svgrepo-com.svg" alt="">+1983249823</h6>
+            <h6 class="fw-lighter"><img class="svg-img" src="mail-svgrepo-com.svg" alt="">contact@airstream.com</h6>
+
+          </div>
+
+          
+         <!-Copyright->
+       <div class="text-center p-3">
+        &copy; 2024 Copyright:
+        <a class="text-white text-decoration-none" href="#">Airstream &#8482; - All rights reserved</a>
+       </div>
+        </footer>
+      </div>
+    -->
+   
     
+
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
